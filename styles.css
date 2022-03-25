@@ -1,0 +1,103 @@
+
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+  }
+  
+  h1 {
+   color: hsl(0, 0%, 100%);
+  }
+  
+  h2 {
+    color: hsl(217, 12%, 63%);
+  }
+  
+  .submit {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+  
+  .card {
+    display: flex;
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+    justify-content: flex-start;;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30%;
+    background-image: linear-gradient(hsl(210, 10%, 28%), hsl(213, 19%, 18%));
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10%;
+  }
+
+.card2 {
+          
+    display: none;
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    background-image: linear-gradient(hsl(210, 10%, 28%), hsl(213, 19%, 18%));
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10%;
+   
+  
+}
+
+
+
+  .numbers {
+    width: 400px;
+    height: 50px;
+    display: flex;  
+    justify-content: space-around;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: hsl(213, 19%, 18%);
+    color:hsl(210, 10%, 28%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle:hover {
+    background-color: hsl(25, 97%, 53%);
+  }
+
+.clickCircle {
+ width: 40px;
+    height: 40px;
+    background-color: white;
+    color:hsl(210, 10%, 28%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .submit {
+    margin: 20px;
+  }
+
+.chosen {
+color: hsl(25, 97%, 53%);
+}
+
+.chosen{
+background-color: hsl(213, 19%, 18%);
+border-radius: 10%;
+}
